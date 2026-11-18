@@ -1,0 +1,35 @@
+# Visual Studio build output and cache
+.vs/
+[Xx]64/
+[Xx]86/
+[Dd]ebug/
+[Rr]elease/
+ipch/
+
+# generated / user-specific VS files
+*.aps
+*.suo
+*.user
+*.vcxproj.user
+*.vsconfig
+*.VC.db
+*.VC.opendb
+*.opendb
+*.tlog
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.ipch
+*.log
+*.recipe
+*.lastbuildstate
+
+# g++ / Linux build output
+client_app
+*.o
+*.out
+
+# generated client runtime files (identity / secrets)
+me.info
+priv.key

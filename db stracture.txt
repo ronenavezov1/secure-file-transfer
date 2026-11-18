@@ -1,0 +1,4 @@
+
+CREATE TABLE clients(id byte[16], name char[255], public_key byte[160], lastseen date,aes byte[128], PRIMARY KEY(ID ) );
+
+CREATE TABLE files(id byte[16], file_name char[255], file_path char[255], verified boolean);

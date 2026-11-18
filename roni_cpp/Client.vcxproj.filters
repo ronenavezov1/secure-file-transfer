@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{a1000000-0000-0000-0000-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{a1000000-0000-0000-0000-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="transport">
+      <UniqueIdentifier>{a1000000-0000-0000-0000-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{a1000000-0000-0000-0000-000000000004}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="client\Client.cpp"><Filter>client</Filter></ClCompile>
+    <ClCompile Include="client\Config.cpp"><Filter>client</Filter></ClCompile>
+    <ClCompile Include="client\User.cpp"><Filter>client</Filter></ClCompile>
+    <ClCompile Include="protocol\Request.cpp"><Filter>protocol</Filter></ClCompile>
+    <ClCompile Include="protocol\Response.cpp"><Filter>protocol</Filter></ClCompile>
+    <ClCompile Include="transport\TCP.cpp"><Filter>transport</Filter></ClCompile>
+    <ClCompile Include="crypto\AESWrapper.cpp"><Filter>crypto</Filter></ClCompile>
+    <ClCompile Include="crypto\Base64Wrapper.cpp"><Filter>crypto</Filter></ClCompile>
+    <ClCompile Include="crypto\RSAWrapper.cpp"><Filter>crypto</Filter></ClCompile>
+    <ClCompile Include="crypto\cksum.cpp"><Filter>crypto</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client\Client.h"><Filter>client</Filter></ClInclude>
+    <ClInclude Include="client\Config.h"><Filter>client</Filter></ClInclude>
+    <ClInclude Include="client\User.h"><Filter>client</Filter></ClInclude>
+    <ClInclude Include="protocol\protocol.h"><Filter>protocol</Filter></ClInclude>
+    <ClInclude Include="protocol\Request.h"><Filter>protocol</Filter></ClInclude>
+    <ClInclude Include="protocol\Response.h"><Filter>protocol</Filter></ClInclude>
+    <ClInclude Include="transport\TCP.h"><Filter>transport</Filter></ClInclude>
+    <ClInclude Include="crypto\AESWrapper.h"><Filter>crypto</Filter></ClInclude>
+    <ClInclude Include="crypto\Base64Wrapper.h"><Filter>crypto</Filter></ClInclude>
+    <ClInclude Include="crypto\RSAWrapper.h"><Filter>crypto</Filter></ClInclude>
+    <ClInclude Include="crypto\cksum.h"><Filter>crypto</Filter></ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+Maman 06 end-to-end test.
+Hello from the real C++ client, over the wire.

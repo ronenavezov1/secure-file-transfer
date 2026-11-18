@@ -1,0 +1,16 @@
+# IDE
+.idea/
+.vscode/
+.vs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# The course assignment itself is the university's material, not ours
+mmn15.pdf
